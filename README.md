@@ -4,13 +4,13 @@ This repository is a collection of custom scripts for [TextBuddy][], a Mac app b
 
 To use the scripts, open TextBuddy and choose __Scripts->Open Scripts Folder__ from the menu. Save any script from this repository to that folder (ensuring that the extension is `.js`).
 
-Once a script is located in that folder, it can be run in TextBuddy using `⌘R`, or generally on the clipboard using `⌘T`.
+Scripts located in that folder, it can be run in TextBuddy using `⌘R`, or generally on the clipboard using `⌘T`.
 
 ## Script Descriptions
 
 ### Keep Only Email Names.js
 
-Convert email addresses copied from a GMail to a list of participants.It also fixes the reverse ordering of names in quotes. Compare with the built-in `Keep Only Email Addresses`.
+Convert email addresses copied from a GMail to a list of participants. It also fixes the reverse ordering of names in quotes. Compare with the built-in `Keep Only Email Addresses`.
 
 Before:
 ```
