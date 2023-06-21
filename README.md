@@ -1,6 +1,6 @@
 # TextBuddy.app Custom Scripts
 
-This repository is a collection of custom scripts for [TextBuddy][], a Mac app by Tyler Hall.
+This repository is a collection of custom scripts for [TextBuddy](https://retina.studio/textbuddy/), a Mac app by Tyler Hall.
 
 To use the scripts, open TextBuddy and choose __Scripts->Open Scripts Folder__ from the menu. Save any script from this repository to that folder (ensuring that the extension is `.js`).
 
