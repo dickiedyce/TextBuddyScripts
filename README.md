@@ -24,6 +24,43 @@ Josephine Soap
 Joe Soap
 ```
 
+### Comma-Delimited List to Lines.js
+
+Convert comma separated lines into multiple lines.
+
+Before:
+```
+Fred Bloggs, Freda Bloggs, Josephine Soap, Joe Soap
+Fred Smith, Freda Smith, Josephine Jones, Joe Jones
+```
+After:
+```
+Fred Bloggs
+Freda Bloggs
+Josephine Soap
+Joe Soap
+Fred Smith
+Freda Smith
+Josephine Jones
+Joe Jones
+```
+
+### Lines to Comma-Delimited List.js
+
+Convert multiple lines into a single comma separated line.
+
+Before:
+```
+Fred Bloggs 
+Freda Bloggs 
+Josephine Soap 
+Joe Soap
+```
+After:
+```
+Fred Bloggs, Freda Bloggs, Josephine Soap, Joe Soap
+```
+
 ### Line Numbers to Asterisks.js
 
 Convert a markdown ordered list to a bullet list.
