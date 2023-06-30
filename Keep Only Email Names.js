@@ -1,7 +1,7 @@
 function pre(str) {
-  const reverseMailRegex = /"(.+), (.+)"+?/g;
-  fixed = str.replace(reverseMailRegex, "$2 $1");
-  const commaRegex = /, +?/g;
+  const reverseMailRegex = /"(.+?), (.+?)" </g;
+  fixed = str.replace(reverseMailRegex, "$2 $1 <");
+  const commaRegex = /, +|,/g;
   return fixed.replace(commaRegex, "\n");
 }
 
